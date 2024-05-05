@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          100: '#e9fff9',  
+          100: '#e9fff9',
+          150: '#c6d8d4',
           200: '#596475',
           300: '#212D40',
           400: '#1f2232',
@@ -19,6 +20,17 @@ module.exports = {
       fontFamily: {
         nunito: ['Nunito', 'sans-serif'],
       },
+      height:{
+        700: '780px'
+      },
+      boxShadow:{
+        basic: '0 4px 6px rgba(0, 0, 0, 0.1)'
+      },
+      backgroundColor:{
+        transparent: {
+          100: 'rgba(255, 255, 255, 0.1)'
+        }
+      }
     },
   },
   plugins: [],
