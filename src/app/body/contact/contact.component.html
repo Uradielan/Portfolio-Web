@@ -19,7 +19,26 @@
             </ul>
         </div>
         <div class="w-full">
-            <h2 class=" text-4xl">FORMULARIO</h2>
+            <h2 class="border-b border-dashed pb-8 text-4xl">FORMULARIO</h2>
+            <form class="block" action="https://formsubmit.co/ruriel51@gmail.com" method="POST">
+                <div class="border-b border-dashed">
+                    <input class="block h-10 w-full bg-primary-300 bg-opacity-75 my-2 p-2" placeholder="Nombre"
+                        type="text" name="name" required>
+                </div>
+                <div class="border-b border-dashed">
+                    <input class="block h-10 w-full bg-primary-300 bg-opacity-75 my-2 p-2" placeholder="Email"
+                        type="email" name="email" required>
+                </div>
+                <div class="border-b border-dashed">
+                    <input class="block h-10 w-full bg-primary-300 bg-opacity-75 my-2 p-2"
+                        placeholder="Teléfono (optativo)" type="text" name="tel">
+                </div>
+                <div class="border-b border-dashed">
+                    <textarea class="block h-10 w-full bg-primary-300 bg-opacity-75 my-2 p-2" placeholder="Mensaje"
+                        rows="10" name="message" required></textarea>
+                </div>
+                <button type="submit" class="bg-secondary px-4 py-3 mt-4">Enviar Mensaje</button>
+            </form>
         </div>
     </div>
 </section>

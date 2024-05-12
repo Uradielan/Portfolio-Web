@@ -1,9 +1,12 @@
 section{
-    background-image: url('https://th.bing.com/th/id/R.27cee06ab256d9c35954670b51a1055b?rik=91gcTk3kDePK0g&pid=ImgRaw&r=0');
+    background-image: url("https://th.bing.com/th/id/R.27cee06ab256d9c35954670b51a1055b?rik=91gcTk3kDePK0g&pid=ImgRaw&r=0");
     width: -webkit-fill-available;
     background-blend-mode: overlay; 
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+input:focus-visible, textarea:focus-visible{
+    outline: none;
 }
