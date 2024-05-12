@@ -1,20 +1,21 @@
-<nav class="flex justify-between px-10 py-5 bg-primary-400">
+<section>
+  <nav class="flex justify-between px-10 py-5 bg-primary-400">
     <div>
       <h2 class="text-2xl font-bold text-white">Uriel Rodriguez</h2>
     </div>
     <div>
       <ul class="flex gap-10 text-xl">
-        <li><a class="hover:text-primary-150" href="">Sobre mi</a></li>
+        <li><a class="hover:text-primary-150" href="">Inicio</a></li>
         <li><a class="hover:text-primary-150" href="">Proyectos</a></li>
         <li><a class="hover:text-primary-150" href="">Habilidades</a></li>
-        <li><a class="hover:text-primary-150" href="">Experiencia</a></li>
         <li><a class="hover:text-primary-150" href="">Educación</a></li>
         <li><a class="hover:text-primary-150" href="">Contacto</a></li>
       </ul>
     </div>
     <div>
       <a href="">
-        <img src="./assets/images/file.png" alt="imagen de cv" class="md:w-8 md:block hidden">
+        <img class="hover:scale-110 transition-all" src="./assets/images/file.png" alt="imagen de cv"
+          class="md:w-8 md:block hidden">
       </a>
     </div>
     <div class="space-y-1 md:hidden cursor-pointer z-10" (click)="toggleVariables()" [ngClass]="fondo">
@@ -23,3 +24,4 @@
       <div class="w-6 h-0.5 bg-black"></div>
     </div>
   </nav>
+</section>

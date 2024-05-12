@@ -21,7 +21,7 @@ module.exports = {
         nunito: ['Nunito', 'sans-serif'],
       },
       height:{
-        700: '780px'
+        700: '790px'
       },
       boxShadow:{
         basic: '0 4px 6px rgba(0, 0, 0, 0.1)'
@@ -30,7 +30,16 @@ module.exports = {
         transparent: {
           100: 'rgba(255, 255, 255, 0.1)'
         }
-      }
+      },
+      animation: {
+        'fade-in': 'fadeIn 1.75s ease-in-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
     },
   },
   plugins: [],

@@ -1,0 +1,19 @@
+.img-laska-desk{
+    height: 430px;
+}
+.img-laska-mobile{
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    height: 400px;
+}
+
+.boton-ver-mas{
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
+
+.continuar{
+    background: linear-gradient(to bottom, transparent, #000);
+}
