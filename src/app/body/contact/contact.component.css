@@ -1,12 +1,58 @@
-section{
+section {
     background-image: url("https://th.bing.com/th/id/R.27cee06ab256d9c35954670b51a1055b?rik=91gcTk3kDePK0g&pid=ImgRaw&r=0");
     width: -webkit-fill-available;
-    background-blend-mode: overlay; 
+    background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-input:focus-visible, textarea:focus-visible{
+
+input:focus-visible,
+textarea:focus-visible {
     outline: none;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+}
+
+.btn-back {
+    border-radius: 10px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.btn-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    color: #fff;
+    border: solid 2px black;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.btn:hover .btn-text{
+    transform: translate(-15px, -10px) rotate(-2deg);
+}
+.btn:hover .btn-back{
+    transform: rotate(-2deg);
 }
